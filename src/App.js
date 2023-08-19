@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import ChatBot from './components/ChatBot';
 
 function App() {
   return (
-    <div className="App">
-      <ChatBot />
-    </div>
+    <>
+      <h2 className='title'>GPT2 Chatbot</h2>
+      <div className="App">
+        <ChatBot />
+      </div>
+    </>
   );
 }
 
