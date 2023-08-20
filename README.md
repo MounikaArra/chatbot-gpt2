@@ -12,24 +12,34 @@ Node.js and npm: [Download](https://nodejs.org/)
 Clone the repository to your local machine
 
 git clone https://github.com/MounikaArra/chatbot-gpt2.git
+
 cd chatbot-gpt2
 
 Install the dependencies
 
 npm install
 
-## Usage
+## Configuration
 
-Start the server by running the following command:
-
-npm start
-
-Open your broswer and go to 'http://localhost:3000'
+The chatbot app uses environment variables  for Configuration by using a .env file for 
+development and production environment respectively.
 
 ## How to use:
 
 Enter your message in the input field and click "Send" or clicking "Enter" key
 The chatbot will respond with a generated response
+
+## Deployment
+
+## Development Environment
+
+For development you can start the application by running the following command
+
+npm start
+
+Open your broswer and go to 'http://localhost:3000'
+
+## Production Environment
 
 For production to deploy the app you can use Docker to conternarize
 
